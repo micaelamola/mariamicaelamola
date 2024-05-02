@@ -339,8 +339,14 @@ h2 {
   grid-area: link-2;
 }
 
-
-
+.carousel-inner {
+  width: auto;
+  height: 500px;
+  transition: transform 0s ease-in-out;
+}
+.carousel-inner.active {
+  display: flex;
+}
 
 
 
